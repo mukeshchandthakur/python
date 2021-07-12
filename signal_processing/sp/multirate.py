@@ -149,17 +149,17 @@ def main():
 
     #Downsample
     x = numpy.arange(1, 11)
-    print 'Down Sampling %s by 3' % x
-    print  downsample(x, 3)
-    print 'Down Sampling %s by 3 with phase offset 2' % x
-    print  downsample(x, 3, phase=2)
+    print('Down Sampling %s by 3' % x)
+    print(downsample(x, 3))
+    print('Down Sampling %s by 3 with phase offset 2' % x)
+    print(downsample(x, 3, phase=2))
 
     #Upsample
     x = numpy.arange(1, 5)
-    print 'Up Sampling %s by 3' % x
-    print upsample(x, 3)
-    print 'Up Sampling %s by 3 with phase offset 2' % x
-    print upsample(x, 3, 2)
+    print('Up Sampling %s by 3' % x)
+    print(upsample(x, 3))
+    print('Up Sampling %s by 3 with phase offset 2' % x)
+    print(upsample(x, 3, 2))
 
     #Decimate
     t = numpy.arange(0, 1, 0.00025)
